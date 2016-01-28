@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B2CC208FD11DCB16BDC6EBF /* libPods-instafeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B91B0B11C0489784D0E03 /* libPods-instafeed.a */; };
+		2DC43C2FC36E87A2EE0826DB /* Pods_instafeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8078D51110C18206168413 /* Pods_instafeed.framework */; };
 		A3A3CC231C59A4C800E2499E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A3CC221C59A4C800E2499E /* PhotoCell.swift */; };
 		A3CE3DAB1C599BA600A13DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE3DAA1C599BA600A13DED /* AppDelegate.swift */; };
 		A3CE3DAD1C599BA600A13DED /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE3DAC1C599BA600A13DED /* PhotosViewController.swift */; };
@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0DAA1BFC0EDAF093E3F6EA67 /* Pods-instafeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafeed/Pods-instafeed.debug.xcconfig"; sourceTree = "<group>"; };
+		1B8078D51110C18206168413 /* Pods_instafeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54317A46ADB0E64D78344BBE /* Pods-instafeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-instafeed/Pods-instafeed.release.xcconfig"; sourceTree = "<group>"; };
 		A3A3CC221C59A4C800E2499E /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		A3CE3DA71C599BA600A13DED /* instafeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instafeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +28,6 @@
 		A3CE3DB11C599BA600A13DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3CE3DB41C599BA600A13DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3CE3DB61C599BA600A13DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD8B91B0B11C0489784D0E03 /* libPods-instafeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-instafeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2CC208FD11DCB16BDC6EBF /* libPods-instafeed.a in Frameworks */,
+				2DC43C2FC36E87A2EE0826DB /* Pods_instafeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +54,7 @@
 		8C8951F34C5182DE6922C980 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD8B91B0B11C0489784D0E03 /* libPods-instafeed.a */,
+				1B8078D51110C18206168413 /* Pods_instafeed.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

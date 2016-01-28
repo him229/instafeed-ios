@@ -12,7 +12,7 @@ import AFNetworking
 class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
-    var photos: NSArray?
+    var photos: [NSDictionary]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +35,9 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 if let data = dataOrNil {
                     if let responseDictionary = try! NSJSONSerialization.JSONObjectWithData(
                         data, options:[]) as? NSDictionary {
-                            NSLog("response: \(responseDictionary)")
-                            
-                            self.photos = responseDictionary["data"] as! NSArray
+                            //NSLog("response: \(responseDictionary)")
+                           self.photos = responseDictionary["data"] as! [NSDictionary]
+                            NSLog("response: \(self.photos)")
                             //Reload table data
                             
                     }
@@ -60,13 +60,13 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @available(iOS 2.0, *)
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         
-        let photo = photos![indexPath.row] as! NSDictionary
-        let photoURLString = photo["images"]["standard_resolution"]["url"] as! String
+        let photo = photos![indexPath.row]
+        let photoURLString = photo["images"]!["standard_resolution"]!!["url"] as! String
         let photoURL = NSURL(string: photoURLString)
         
         let cell = tableView.dequeueReusableCellWithIdentifier("PhotoCell", forIndexPath: indexPath) as! PhotoCell
         
-        cell.photoView.setImageWithURL(photoURL!)
+        //cell.photoView.setImageWithURL(photoURL!)
         
         return cell
     }
