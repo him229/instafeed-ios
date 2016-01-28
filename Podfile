@@ -4,6 +4,7 @@
 use_frameworks!
 
 target 'instafeed' do
+
     pod 'AFNetworking'
 end
 
