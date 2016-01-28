@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DC43C2FC36E87A2EE0826DB /* Pods_instafeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8078D51110C18206168413 /* Pods_instafeed.framework */; };
 		A3A3CC231C59A4C800E2499E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A3CC221C59A4C800E2499E /* PhotoCell.swift */; };
 		A3CE3DAB1C599BA600A13DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE3DAA1C599BA600A13DED /* AppDelegate.swift */; };
 		A3CE3DAD1C599BA600A13DED /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE3DAC1C599BA600A13DED /* PhotosViewController.swift */; };
 		A3CE3DB01C599BA600A13DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CE3DAE1C599BA600A13DED /* Main.storyboard */; };
 		A3CE3DB21C599BA600A13DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CE3DB11C599BA600A13DED /* Assets.xcassets */; };
 		A3CE3DB51C599BA600A13DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CE3DB31C599BA600A13DED /* LaunchScreen.storyboard */; };
+		E60EE530DF7EB6EB1845F87D /* Pods_instafeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D51BEDD5D59FE3385686728 /* Pods_instafeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DAA1BFC0EDAF093E3F6EA67 /* Pods-instafeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafeed/Pods-instafeed.debug.xcconfig"; sourceTree = "<group>"; };
-		1B8078D51110C18206168413 /* Pods_instafeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54317A46ADB0E64D78344BBE /* Pods-instafeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-instafeed/Pods-instafeed.release.xcconfig"; sourceTree = "<group>"; };
+		3D51BEDD5D59FE3385686728 /* Pods_instafeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A3CC221C59A4C800E2499E /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		A3CE3DA71C599BA600A13DED /* instafeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instafeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CE3DAA1C599BA600A13DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +26,8 @@
 		A3CE3DB11C599BA600A13DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3CE3DB41C599BA600A13DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3CE3DB61C599BA600A13DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4838E9667FB70E7D8855B4 /* Pods-instafeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-instafeed/Pods-instafeed.release.xcconfig"; sourceTree = "<group>"; };
+		ECA7F6BBF5B482EC766E3F44 /* Pods-instafeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafeed/Pods-instafeed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,37 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC43C2FC36E87A2EE0826DB /* Pods_instafeed.framework in Frameworks */,
+				E60EE530DF7EB6EB1845F87D /* Pods_instafeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16C9AE7E3DE34CADCFBF8C26 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0DAA1BFC0EDAF093E3F6EA67 /* Pods-instafeed.debug.xcconfig */,
-				54317A46ADB0E64D78344BBE /* Pods-instafeed.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8C8951F34C5182DE6922C980 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1B8078D51110C18206168413 /* Pods_instafeed.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A3CE3D9E1C599BA600A13DED = {
 			isa = PBXGroup;
 			children = (
 				A3CE3DA91C599BA600A13DED /* instafeed */,
 				A3CE3DA81C599BA600A13DED /* Products */,
-				16C9AE7E3DE34CADCFBF8C26 /* Pods */,
-				8C8951F34C5182DE6922C980 /* Frameworks */,
+				F162DCFCFAA6BA99DEC847AB /* Pods */,
+				E9CFB3F0DC0E78EA183A7C10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +74,23 @@
 			path = instafeed;
 			sourceTree = "<group>";
 		};
+		E9CFB3F0DC0E78EA183A7C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D51BEDD5D59FE3385686728 /* Pods_instafeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F162DCFCFAA6BA99DEC847AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECA7F6BBF5B482EC766E3F44 /* Pods-instafeed.debug.xcconfig */,
+				BC4838E9667FB70E7D8855B4 /* Pods-instafeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,12 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3CE3DB91C599BA600A13DED /* Build configuration list for PBXNativeTarget "instafeed" */;
 			buildPhases = (
-				D82FD1C59F413F48C48774DD /* Check Pods Manifest.lock */,
+				D923F5628D5AC116D6A61919 /* Check Pods Manifest.lock */,
 				A3CE3DA31C599BA600A13DED /* Sources */,
 				A3CE3DA41C599BA600A13DED /* Frameworks */,
 				A3CE3DA51C599BA600A13DED /* Resources */,
-				D57344A3E14F7C7CEDD8746C /* Embed Pods Frameworks */,
-				638587A6F9AE5E9E81E687BA /* Copy Pods Resources */,
+				C2BAF754AEFA6A991BA96C74 /* Embed Pods Frameworks */,
+				9870DD7C861406E91E2AA356 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,7 +161,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		638587A6F9AE5E9E81E687BA /* Copy Pods Resources */ = {
+		9870DD7C861406E91E2AA356 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,7 +176,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instafeed/Pods-instafeed-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D57344A3E14F7C7CEDD8746C /* Embed Pods Frameworks */ = {
+		C2BAF754AEFA6A991BA96C74 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,7 +191,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instafeed/Pods-instafeed-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D82FD1C59F413F48C48774DD /* Check Pods Manifest.lock */ = {
+		D923F5628D5AC116D6A61919 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,7 +324,7 @@
 		};
 		A3CE3DBA1C599BA600A13DED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DAA1BFC0EDAF093E3F6EA67 /* Pods-instafeed.debug.xcconfig */;
+			baseConfigurationReference = ECA7F6BBF5B482EC766E3F44 /* Pods-instafeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = instafeed/Info.plist;
@@ -336,7 +336,7 @@
 		};
 		A3CE3DBB1C599BA600A13DED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54317A46ADB0E64D78344BBE /* Pods-instafeed.release.xcconfig */;
+			baseConfigurationReference = BC4838E9667FB70E7D8855B4 /* Pods-instafeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = instafeed/Info.plist;
