@@ -71,6 +71,16 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         return cell
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        var destinationViewController = segue.destinationViewController as! PhotoDetailsViewController
+        var indexPath = tableView.indexPathForCell(sender as! UITableViewCell)
+        
+        let photoURLString = photos!["data"]![indexPath!.row]!["images"]!!["standard_resolution"]!!["url"] as! String
+        destinationViewController.photoURL = NSURL(string: photoURLString)   
+    }
 
 
 }

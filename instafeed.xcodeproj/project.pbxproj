@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A376A2C11C62DD5A00EC5D5C /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A376A2C01C62DD5A00EC5D5C /* PhotoDetailsViewController.swift */; };
 		A3A3CC231C59A4C800E2499E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A3CC221C59A4C800E2499E /* PhotoCell.swift */; };
 		A3CE3DAB1C599BA600A13DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE3DAA1C599BA600A13DED /* AppDelegate.swift */; };
 		A3CE3DAD1C599BA600A13DED /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE3DAC1C599BA600A13DED /* PhotosViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3D51BEDD5D59FE3385686728 /* Pods_instafeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A376A2C01C62DD5A00EC5D5C /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		A3A3CC221C59A4C800E2499E /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		A3CE3DA71C599BA600A13DED /* instafeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instafeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CE3DAA1C599BA600A13DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				A3CE3DB31C599BA600A13DED /* LaunchScreen.storyboard */,
 				A3CE3DB61C599BA600A13DED /* Info.plist */,
 				A3A3CC221C59A4C800E2499E /* PhotoCell.swift */,
+				A376A2C01C62DD5A00EC5D5C /* PhotoDetailsViewController.swift */,
 			);
 			path = instafeed;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A376A2C11C62DD5A00EC5D5C /* PhotoDetailsViewController.swift in Sources */,
 				A3CE3DAD1C599BA600A13DED /* PhotosViewController.swift in Sources */,
 				A3A3CC231C59A4C800E2499E /* PhotoCell.swift in Sources */,
 				A3CE3DAB1C599BA600A13DED /* AppDelegate.swift in Sources */,
