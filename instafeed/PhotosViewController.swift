@@ -66,12 +66,11 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let photoURL = NSURL(string: photoURLString)
         
         let cell = tableView.dequeueReusableCellWithIdentifier("PhotoCell", forIndexPath: indexPath) as! PhotoCell
-        
         cell.photoView.setImageWithURL(photoURL!)
-        
+        cell.selectionStyle = .None
         return cell
     }
-    
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
