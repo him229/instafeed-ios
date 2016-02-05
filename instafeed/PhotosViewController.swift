@@ -9,7 +9,7 @@
 import UIKit
 import AFNetworking
 
-class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     var photos: NSDictionary?
@@ -35,7 +35,6 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 if let data = dataOrNil {
                     if let responseDictionary = try! NSJSONSerialization.JSONObjectWithData(
                         data, options:[]) as? NSDictionary {
-                            //NSLog("response: \(responseDictionary)")
                            self.photos = responseDictionary
                             self.tableView.reloadData()
                             
@@ -70,11 +69,14 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.selectionStyle = .None
         return cell
     }
+    func scrollViewDidScroll(scrollView: UIScrollView) // any offset changes
+    {
+        
+    }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
         var destinationViewController = segue.destinationViewController as! PhotoDetailsViewController
+        
         var indexPath = tableView.indexPathForCell(sender as! UITableViewCell)
         
         let photoURLString = photos!["data"]![indexPath!.row]!["images"]!!["standard_resolution"]!!["url"] as! String
